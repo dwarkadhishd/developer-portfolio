@@ -1,16 +1,60 @@
+body {
+    background: linear-gradient(180deg, #0a0a0a 10%, #252944 100%);
+    background-attachment: fixed;
+    color: #e2e8f0;
+    font-family: 'Inter', sans-serif;
+}
+
 .intro {
     position: fixed;
     width: 45%;
     float: left;
-    
+    margin: 50px;    
+    padding-top: 50px;
 }
 
 .main {
+
     width: 45%;
     float: right;
+    margin: 50px;
+    font-weight: 300;
+    display: inline;
+    opacity: 0.9;
+    color: #d1d2d3;
+    padding-top: 50px;
 }
 
 footer {
     clear:both;
 
+}
+
+.name {
+    font-size: 36px;
+    font-weight: 800;
+    opacity: 1;
+}
+
+.role {
+    font-size: 18px;
+    font-weight: 500;
+    opacity: 1;
+}
+
+.short-about {
+    font-weight: 300;
+    opacity: 0.8;
+}
+
+.link-button {
+    color: white;
+    text-decoration: none;
+    border-radius: 5px; 
+    opacity: 1;
+    font-weight: 500;
+}
+
+.link-button:hover {
+    color: #416afe; 
 }
