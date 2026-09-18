@@ -1,0 +1,16 @@
+.intro {
+    position: fixed;
+    width: 45%;
+    float: left;
+    
+}
+
+.main {
+    width: 45%;
+    float: right;
+}
+
+footer {
+    clear:both;
+
+}
