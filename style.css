@@ -28,6 +28,7 @@ body {
 footer {
     clear:both;
 
+    float: inline-end;
 }
 
 .name {
@@ -57,4 +58,25 @@ footer {
 
 .link-button:hover {
     color: #416afe; 
+}
+
+.about {
+    margin-bottom: 80px;
+}
+
+.education {
+    margin-bottom: 80px;
+}
+
+.work-experience {
+    margin-bottom: 80px;
+}
+
+.social-button {
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 25px;
+    height: 25px;
+    border: 0.2px #e2e8f0 solid ;
 }
