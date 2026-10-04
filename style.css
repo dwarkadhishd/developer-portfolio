@@ -1,6 +1,89 @@
+:root {
+    /* Deep base backgrounds */
+    --bg-main: #0c0a09;
+    /* Deep warm charcoal */
+    --bg-card: #1c1917;
+    /* Dark zinc card surface */
+    --border-color: #292524;
+    /* Refined border color */
+
+    /* Typography */
+    --text-main: #fafaf9;
+    /* Soft warm white */
+    --text-muted: #a8a29e;
+    /* Muted warm gray */
+
+    /* Gradient Accents */
+    --accent-gradient: linear-gradient(135deg, #f59e0b 0%, #ea580c 100%);
+    /* Amber to Orange */
+    --accent-solid: #f59e0b;
+    /* Fallback solid color */
+}
+
+.gradient-text {
+    background: var(--accent-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 body {
     background-color: var(--bg-main);
     color: var(--text-main);
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
 }
 
+/* Navbar Container */
+.navbar {
+    width: 100%;
+    padding: 2rem 0;
+    background-color: var(--bg-main);
+}
+
+/* Flexbox layout keeping it centered and narrow */
+.nav-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    margin-right: 60px;
+    display: flex;
+    float: right;
+}
+
+/* Logo / Name styling */
+.nav-logo {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--text-main);
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.nav-logo:hover {
+    color: var(--accent);
+}
+
+/* Nav links wrapper */
+.nav-links {
+    display: flex;
+    gap: 2rem;
+}
+
+/* Individual links */
+.nav-links a {
+    font-size: 1rem;
+    color: var(--text-muted);
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+/* Hover effect */
+.nav-links a:hover {
+    color: var(--accent);
+}
+
+.divider{
+    height: 40px;
+}
