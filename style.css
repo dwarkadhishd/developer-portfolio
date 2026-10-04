@@ -31,8 +31,7 @@ body {
     color: var(--text-main);
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     line-height: 1.6;
-    margin: 0;
-    padding: 0;
+
 }
 
 /* Navbar Container */
@@ -86,4 +85,22 @@ body {
 
 .divider{
     height: 40px;
+}
+
+.intro {
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
+.intro-name {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 2px;
+}
+
+.intro-role {
+    margin-top: 0;
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-bottom: 4rem;
 }
